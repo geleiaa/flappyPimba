@@ -4,9 +4,10 @@
 
 @font-face {
     font-family: 'Pixel';
-    src: url('../fonts/Pixel.ttf');
+    src: url('Pixel.ttf');
 }
 
+/* propriedade personalizada */
 [wm-flappy] {
     position: relative;
     border: 5px solid dodgerblue;
@@ -14,13 +15,13 @@
     width: 1200px;
     margin: 15px;
     background-color: deepskyblue;
-    overflow: hidden;
+    overflow: hidden; /* fora da div, tudo é hidden */
 }
 
 .passaro {
     position: absolute;
     width: 60px;
-    left: calc(50% - 30px);
+    left: calc(50% - 30px); /* passaro no meio da tela  */ 
 }
 
 .par-de-barreiras {
